@@ -2307,7 +2307,7 @@ body {
       transform: rotate(0deg);
    }
 }
-
+/* 
 .coming-soon {
    display: flex;
    flex-direction: column;
@@ -2334,4 +2334,4 @@ body {
 .pattern:before {
    margin-left: 14px;
    margin-top: -8px;
-}
+} */
