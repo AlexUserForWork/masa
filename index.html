@@ -84,6 +84,7 @@
                <li><a href="#about" title="About MABA">About</a></li>
                <li><a href="#tokenomics" title="YUGEnomics">YUGEnomics</a></li>
                <li><a href="#roadmap" title="Plan">Plan</a></li>
+               <li><a href="game" title="Play">Play</a></li>
                <li class="hide">
                   <a
                      href="https://t.me/YUGE_Club"
@@ -189,6 +190,7 @@
                      alt="YUGE"
                   />
                </div>
+
                <img
                   class="biden"
                   src="./static/media/biden.1d16459aee81cd625e28.webp"
@@ -233,6 +235,11 @@
                   />
                </div>
             </figure>
+            <div class="play-button-container">
+               <button class="play-button" onclick="navigateToGame()">
+                  Play
+               </button>
+            </div>
          </section>
          <section class="launching fw spaceless">
             <div
@@ -757,5 +764,10 @@
          </div> -->
       </main>
       <deepl-input-controller></deepl-input-controller>
+      <script>
+         function navigateToGame() {
+            window.location.href = '/game';
+         }
+      </script>
    </body>
 </html>

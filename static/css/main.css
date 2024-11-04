@@ -2307,6 +2307,59 @@ body {
       transform: rotate(0deg);
    }
 }
+
+.play-button-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: transparent;
+   position: relative;
+   /* height: 10px; */
+}
+
+.play-button {
+   /* display: block;
+   margin: auto 0; */
+   position: absolute;
+   top: -50px;
+   left: 45dvw;
+   margin-bottom: 5px;
+   display: flex;
+   width: 200px;
+   height: 76px;
+   background-color: red;
+   color: white;
+   border: 2px solid darkred;
+   border-radius: 30px;
+   cursor: pointer;
+   align-items: center;
+   justify-content: center;
+   font-size: 52px;
+   transition: background-color 0.3s, border-color 0.3s;
+}
+
+.play-button:hover {
+   background-color: darkred;
+   border-color: #ff6666;
+}
+
+@media (max-width: 768px) {
+   .play-button {
+      left: 33vw;
+   }
+
+   .play-button-container {
+   }
+}
+
+@media (max-width: 480px) {
+   .play-button {
+      left: 25vw;
+   }
+
+   .play-button-container {
+   }
+}
 /* 
 .coming-soon {
    display: flex;
