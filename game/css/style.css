@@ -116,9 +116,9 @@ body {
    position: relative;
    background-image: url('grass.79410bb48f94c385e940.webp'),
       url('clouds.c6ca0a4188282dfa3773.webp'),
-      linear-gradient(0deg, #9cd85d 20%, #99ecff 61%, #52a5ce);
+      linear-gradient(0deg, #9cd85d 30%, #99ecff 61%, #52a5ce);
 
-   background-size: cover, cover, cover;
+   /* background-size: cover, cover, 100% 20%; */
 
    background-position: bottom center, top center, center;
 
