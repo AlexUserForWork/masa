@@ -1,6 +1,6 @@
 {
    "rewrites": [
-      { "source": "/static/(.*)", "destination": "/public/static/$1" },
-      { "source": "/game/(.*)", "destination": "/public/game/$1" }
+      { "source": "/static/(.*)", "destination": "/static/$1" },
+      { "source": "/game/(.*)", "destination": "/game/$1" }
    ]
 }
