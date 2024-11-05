@@ -743,6 +743,7 @@ body {
 .socials {
    align-items: center;
    display: flex;
+   padding-right: 18px;
 }
 .socials a:not(:last-child) {
    margin-right: 5px;
