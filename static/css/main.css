@@ -2389,3 +2389,33 @@ body {
    margin-left: 14px;
    margin-top: -8px;
 } */
+
+/* 
+.coming-soon {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 80dvh;
+   text-align: center;
+   overflow: hidden;
+}
+.comming-soon-wrapper {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 8;
+}
+
+.comming-soon-bottom {
+   padding-top: 36px;
+} */
+
+.zsx-axis:before, .zsx-axis {
+   margin-left: 36px;
+   margin-top: -8px;
+}
+
